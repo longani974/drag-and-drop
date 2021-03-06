@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0e3240;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #a63737;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: #0e3240;
+    border-radius: 5px;
+    color: #05dbf2;
+}
+
+.dragging {
+    opacity: 0.5;
+}
